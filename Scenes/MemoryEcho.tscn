@@ -30,6 +30,7 @@ radius = 84.0
 height = 258.0
 
 [node name="MemoryEcho" type="Area2D"]
+z_index = 1
 script = ExtResource("1_sobu1")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
