@@ -3,6 +3,7 @@ extends Area2D
 var is_active = false
 
 func _ready():
+	$Sprite2D/AnimationPlayer.play("Default")
 	connect("body_entered", Callable(self, "_on_body_entered"))
 
 func _on_body_entered(body):

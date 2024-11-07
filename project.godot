@@ -14,3 +14,7 @@ config/name="Echoes_of_the_Forest"
 run/main_scene="res://Scenes/ForestArea.tscn"
 config/features=PackedStringArray("4.2", "Forward Plus")
 config/icon="res://icon.svg"
+
+[filesystem]
+
+import/fbx/enabled=false

@@ -1,20 +1,22 @@
 [gd_scene load_steps=4 format=3 uid="uid://df8106ws1n5gs"]
 
-[ext_resource type="Texture2D" uid="uid://b63juf01ydpcs" path="res://Assets/ForestBackground.jpg" id="1_2sgml"]
+[ext_resource type="Texture2D" uid="uid://b63juf01ydpcs" path="res://Assets/Backgrounds/ForestBackground.jpg" id="1_2sgml"]
 [ext_resource type="PackedScene" uid="uid://cm6es7bcwah3" path="res://Scenes/player.tscn" id="2_5segp"]
 [ext_resource type="PackedScene" uid="uid://rujujrxnw6c6" path="res://Scenes/MemoryEcho.tscn" id="3_688ln"]
 
 [node name="ForestArea" type="Node2D"]
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
-position = Vector2(575, 308.5)
-scale = Vector2(1.9085, 1.02138)
+position = Vector2(596, 261.5)
+scale = Vector2(4.34641, 2.23849)
 texture = ExtResource("1_2sgml")
 
 [node name="Player" parent="." instance=ExtResource("2_5segp")]
 position = Vector2(560, 290)
-scale = Vector2(0.55, 0.55)
+scale = Vector2(1.92, 1.92)
 speed = 200
+
+[node name="Camera2D" type="Camera2D" parent="Player"]
 
 [node name="MemoryEcho" parent="." instance=ExtResource("3_688ln")]
 position = Vector2(506, 437)
