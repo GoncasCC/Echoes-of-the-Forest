@@ -11,5 +11,6 @@ config_version=5
 [application]
 
 config/name="Echoes_of_the_Forest"
+run/main_scene="res://Scenes/ForestArea.tscn"
 config/features=PackedStringArray("4.2", "Forward Plus")
 config/icon="res://icon.svg"
